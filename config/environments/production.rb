@@ -89,5 +89,6 @@ Rails.application.configure do
     authentication:       'plain',
     enable_starttls_auto: true  }
 
-    
+     config.serve_static_assets = true
+    config.exceptions_app = ->(env) { ExceptionsController.action(:show).call(env) }
 end

@@ -4,9 +4,7 @@ class NotesController < ApplicationController
   before_action :set_note, only: [:show, :edit, :update, :destroy]
   
    $: << Dir.pwd + '/lib'
-   require 'pry'
-    require 'peru_sunat_ruc'
-  
+   
   lib = File.expand_path('../../../lib', __FILE__)
         $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
@@ -64,7 +62,7 @@ class NotesController < ApplicationController
   # GET /notes.json
   def index
       @notes = Note.all.paginate(:page => params[:page]).where("fecha>=? and fecha<= ?","2019-01-01 00:00:00","2019-12-31 23:59:59").order("fecha DESC","serie ","NUMERO DESC")
-      @notes2 = Note.where("fecha>=? and fecha<= ?","2019-05-15 00:00:00","2019-12-31 23:59:59").order("fecha DESC","serie ","NUMERO DESC") 
+      @notes2 = Note.where("fecha>=? and fecha<= ?","2019-06-01 00:00:00","2019-12-31 23:59:59").order("fecha DESC","serie ","NUMERO DESC") 
       @fecha1 = params[:fecha1]
       @fecha2 = params[:fecha2]
       @location = params[:location]
@@ -201,7 +199,7 @@ class NotesController < ApplicationController
         
         newfile = "#{Dir.pwd}/app/pdf_output/20517308367-01-F105-000007.pdf"
         
-        send_file("#{file_path}", :type => 'application/x-pdf',:disposition => 'inline')  
+        send_file("#{$lcFileName1}",:type => 'application/pdf', :disposition => 'inline') 
 
         @@document_serial_id =""
         $aviso=""
@@ -262,5 +260,7 @@ end
       params.require(:note).permit(:td, :fecha, :turno, :cod_emp, :caja, :serie, :numero, :cod_cli, :ruc, :placa, :odometro, :cod_prod, :cantidad, :precio, :importe, :igv, :fpago)
     end
 end
+
+
 
 
