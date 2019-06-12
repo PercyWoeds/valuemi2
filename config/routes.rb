@@ -78,7 +78,7 @@ end
     end
    end
 
-  root 'invoices#index'
+  root 'notes#index'
 
     get 'download_pdf', to: "homes#download_pdf"
 
