@@ -44,6 +44,7 @@ gem 'i18n-active_record', :require => 'i18n/active_record'
 
 
 gem 'wicked_pdf', '~> 1.4'
+
 gem 'wkhtmltopdf-binary', '~> 0.12.4'
 
 # Use ActiveModel has_secure_password
