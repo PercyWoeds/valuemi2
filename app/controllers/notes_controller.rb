@@ -62,7 +62,7 @@ class NotesController < ApplicationController
   # GET /notes.json
   def index
       @notes = Note.all.paginate(:page => params[:page]).where("fecha>=? and fecha<= ? and ruc =? and td=?","2019-01-01 00:00:00","2019-12-31 23:59:59","","F").order("fecha DESC","serie ","NUMERO DESC")
-      @notes2 = Note.where("fecha>=? and fecha<= ?","2019-06-01 00:00:00","2019-12-31 23:59:59").order("fecha DESC","serie ","NUMERO DESC") 
+      @notes2 = Note.where("fecha>=? and fecha<= ?","2019-01-01 00:00:00","2019-12-31 23:59:59").order("fecha DESC","serie ","NUMERO DESC") 
       @fecha1 = params[:fecha1]
       @fecha2 = params[:fecha2]
       @location = params[:location]
@@ -72,14 +72,14 @@ class NotesController < ApplicationController
       when "1" then 
         begin 
         
-         @notes = Note.all.paginate(:page => params[:page]).where("fecha>=? and fecha<= ? and SUBSTRING (serie, 2, 1)=? ", "#{@fecha1} 00:00:00","#{@fecha2} 23:59:59","0").order("fecha DESC","serie","NUMERO DESC")
-    
+       #  @notes = Note.all.paginate(:page => params[:page]).where("fecha>=? and fecha<= ? and SUBSTRING (serie, 2, 1)=? ", "#{@fecha1} 00:00:00","#{@fecha2} 23:59:59","B").order("fecha DESC","serie","NUMERO DESC")
+    @notes = Note.all.paginate(:page => params[:page]).where("fecha>=? and fecha<= ?",@fecha1,@fecha2).order("fecha DESC","serie ","NUMERO DESC")
         end   
       when "2" then
         begin 
          
-         @notes = Note.all.paginate(:page => params[:page]).where("fecha>=? and fecha<= ? and SUBSTRING (serie, 2, 1)=? ", "#{@fecha1} 00:00:00","#{@fecha2} 23:59:59","1").order("fecha DESC","serie","NUMERO DESC")
-    
+        # @notes = Note.all.paginate(:page => params[:page]).where("fecha>=? and fecha<= ? and SUBSTRING (serie, 2, 1)=? ", "#{@fecha1} 00:00:00","#{@fecha2} 23:59:59","B").order("fecha DESC","serie","NUMERO DESC")
+    @notes = Note.all.paginate(:page => params[:page]).where("fecha>=? and fecha<= ?",@fecha1,@fecha2).order("fecha DESC","serie ","NUMERO DESC")
        end 
        
       else 

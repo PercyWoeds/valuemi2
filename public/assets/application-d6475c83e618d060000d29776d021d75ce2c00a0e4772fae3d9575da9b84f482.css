@@ -1,0 +1,2086 @@
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 10, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 20, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 33, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 53, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 66, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 76, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 88, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+a {
+  background: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 96, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 108, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 116, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 125, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 134, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 143, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 152, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 160, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 168, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 172, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 183, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 191, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 202, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 210, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 220, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 228, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 251, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 265, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 276, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 289, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 301, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 310, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 321, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 333, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 345, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 356, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 369, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 378, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 389, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 398, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 407, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+.ac_results {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	/* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	font: menu;
+	font-size: 12px;
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 16px;
+	overflow: hidden;
+}
+
+.ac_loading {
+	background-color: white;
+}
+
+.ac_odd {
+	background-color: #eee;
+}
+
+.ac_over {
+	background-color: #0A246A;
+	color: white;
+}
+/* line 5, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/invoice.scss */
+table td, table th {
+  padding-right: 20px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+/* line 9, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/invoice.scss */
+table td:last-child, table th:last-child {
+  text-align: right;
+}
+/* line 1, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/layout.css.scss */
+html, body {
+  background-color: #4B7399;
+  font-family: Verdana, Helvetica, Arial;
+  font-size: 14px;
+}
+
+/* line 7, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/layout.css.scss */
+a img {
+  border: none;
+}
+
+/* line 11, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/layout.css.scss */
+a {
+  color: #0000FF;
+}
+
+/* line 15, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/layout.css.scss */
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+/* line 21, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/layout.css.scss */
+#container {
+  width: 95%;
+  margin: 0 auto;
+  background-color: #FFF;
+  padding: 20px 40px;
+  border: solid 1px black;
+  margin-top: 20px;
+}
+
+/* line 30, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/layout.css.scss */
+#flash_notice, #flash_error, #flash_alert {
+  padding: 5px 8px;
+  margin: 10px 0;
+}
+
+/* line 35, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/layout.css.scss */
+#flash_notice {
+  background-color: #CFC;
+  border: solid 1px #6C6;
+}
+
+/* line 40, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/layout.css.scss */
+#flash_error, #flash_alert {
+  background-color: #FCC;
+  border: solid 1px #C66;
+}
+
+/* line 45, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/layout.css.scss */
+.field_with_errors {
+  display: inline;
+}
+
+/* line 49, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/layout.css.scss */
+.error_messages {
+  width: 400px;
+  border: 2px solid #CF0000;
+  padding: 0px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  font-size: 12px;
+}
+
+/* line 59, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/layout.css.scss */
+.error_messages h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin: 0;
+  background-color: #c00;
+  color: #fff;
+}
+
+/* line 69, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/layout.css.scss */
+.error_messages p {
+  margin: 8px 10px;
+}
+
+/* line 73, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/layout.css.scss */
+.error_messages ul {
+  margin-bottom: 0;
+}
+
+/* line 77, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/layout.css.scss */
+form .field, form .actions {
+  margin: 12px 0;
+}
+
+/* line 82, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/layout.css.scss */
+.text-left {
+  text-align: left;
+}
+/* line 1, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.css.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.css.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.css.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.css.scss */
+a {
+  color: #000;
+}
+/* line 24, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.css.scss */
+a:visited {
+  color: #666;
+}
+/* line 28, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.css.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.css.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 40, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.css.scss */
+#notice {
+  color: green;
+}
+
+/* line 44, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.css.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 50, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 58, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 69, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/* line 1, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 24, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 28, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 40, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 44, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 50, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 58, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 69, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 9, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 19, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 32, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 52, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 65, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 75, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 87, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+a {
+  background: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 95, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 107, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 115, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 124, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 133, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 142, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 151, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 159, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 167, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 171, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 182, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 190, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 201, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 209, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 219, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 227, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 250, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 264, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 275, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 288, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 300, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 309, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 320, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 332, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 344, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 355, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 368, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 377, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 388, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 397, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 406, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/_normalize.css.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* RESET */
+/* line 20, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 29, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+body {
+  line-height: 1;
+}
+
+/* line 32, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 35, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 40, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+:focus {
+  outline: 0;
+}
+
+/* line 43, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+ins {
+  text-decoration: none;
+}
+
+/* line 46, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 49, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* - RESET */
+/* line 55, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: helvetica, arial, verdana, sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  background-color: #fff;
+  color: black;
+}
+
+/* line 65, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+p {
+  margin: 5px 0;
+}
+
+/* line 69, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+p, div {
+  line-height: 1.3;
+}
+
+/* line 73, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+/* line 79, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+a, a:link, a:visited, a:hover, a:active {
+  color: #3366cc;
+}
+
+/* line 83, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.linethrough {
+  text-decoration: none;
+  text-decoration: line-through;
+}
+
+/* line 88, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.button {
+  margin: 15px 0;
+}
+
+/* line 92, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.button a, .button a:link, .button a:visited, .button a:hover, .button a:active {
+  text-decoration: none;
+  background-color: #3366cc;
+  border: 2px solid #3366cc;
+  color: white;
+  padding: 5px;
+  font-size: 14px;
+}
+
+/* line 101, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.button a.small_btn, .button a:link.small_btn, .button a:visited.small_btn, .button a:hover.small_btn, .button a:active.small_btn {
+  font-size: 10px;
+}
+
+/* line 105, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+ul {
+  padding: 0;
+  margin: 0;
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+/* line 112, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+h1, h2, h3 {
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+  margin: 15px 0;
+}
+
+/* line 117, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+h1 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+/* line 122, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+h2 {
+  font-size: 25px;
+}
+
+/* line 126, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+h3 {
+  font-size: 22px;
+}
+
+/* line 130, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+h4 {
+  font-size: 18px;
+}
+
+/* line 134, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+abbr {
+  border-bottom: 1px dotted black;
+  cursor: help;
+}
+
+/* line 139, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.vmiddle {
+  vertical-align: middle;
+}
+
+/* line 143, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.vtop {
+  vertical-align: top;
+}
+
+/* line 147, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.vbottom {
+  vertical-align: bottom;
+}
+
+/* line 151, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 155, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.left {
+  text-align: left;
+}
+
+/* line 159, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.center {
+  text-align: center;
+}
+
+/* line 163, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.right {
+  text-align: right;
+}
+
+/* line 167, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.fleft {
+  float: left;
+}
+
+/* line 171, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.fright {
+  float: right;
+}
+
+/* line 175, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#loading {
+  border: 3px solid black;
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 5px;
+  font-size: 10px;
+  display: none;
+  z-index: 102;
+}
+
+/* line 187, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#remote {
+  border: 3px solid black;
+  background-color: white;
+  width: 400px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+  padding: 5px;
+  z-index: 101;
+}
+
+/* line 199, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#notice {
+  color: green;
+}
+
+/* line 203, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: #ff9999;
+  display: inline;
+}
+
+/* line 209, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+/* line 218, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 1em;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+
+/* line 229, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#error_explanation ul li {
+  font-size: 1em;
+  list-style: square;
+}
+
+/* line 234, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#header_cont {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+/* line 239, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#header {
+  background-color: #f1f1f1;
+  color: black;
+  height: 55px;
+  width: 990px;
+  margin: 0 auto;
+}
+
+/* line 247, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#header #logo {
+  padding: 5px 0;
+}
+
+/* line 251, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#img_logo {
+  width: 200px;
+  height: 49px;
+}
+
+/* line 256, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#header #slogan {
+  font-size: 1.4em;
+  float: right;
+  margin: 30px 50px 0 0;
+  color: #333;
+  line-height: 110%;
+}
+
+/* line 264, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#header a, #header a:link, #header a:visited, #header a:hover, #header a:active {
+  background-color: inherit;
+  color: white;
+  text-decoration: none;
+}
+
+/* line 270, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#usermenu {
+  font-size: 12px;
+  padding: 5px;
+  text-align: right;
+  width: 980px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+/* line 279, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#usermenu a, #usermenu a:link, #usermenu a:visited, #usermenu a:hover, #usermenu a:active {
+  color: #666;
+}
+
+/* line 283, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#menu_cont {
+  background-color: #444;
+}
+
+/* line 287, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#menu {
+  background-color: #444;
+  color: black;
+  padding: 5px;
+  margin: 0 auto;
+  width: 980px;
+  font-size: 15px;
+}
+
+/* line 296, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#menu a, #menu a:link, #menu a:visited, #menu a:hover, #menu a:active {
+  color: white;
+  padding: 0;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* line 303, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#menu .btn {
+  float: left;
+}
+
+/* line 307, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#content {
+  width: 1080px;
+  padding: 5px 5px 40px 5px;
+  margin: 0px auto;
+  background-color: white;
+}
+
+/* line 314, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.info {
+  width: 400px;
+  float: right;
+  margin: 5px 0 5px 5px;
+  padding: 7px;
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+  filter: alpha(opacity=40);
+}
+
+/* line 325, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.info a, .info a:link, .info a:visited, .info a:hover, .info a:active {
+  color: #cc3300;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 331, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#footer_cont {
+  background-color: black;
+  border-top: 12px solid #464646;
+}
+
+/* line 336, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#footer {
+  background-color: black;
+  color: white;
+  font-size: 13px;
+  padding: 5px;
+  padding: 5px;
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* line 346, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#footer a, #footer a:link, #footer a:visited, #footer a:hover, #footer a:active {
+  background-color: inherit;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+/* line 353, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#shortcuts {
+  display: none;
+}
+
+/* line 357, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.mid_box {
+  width: 48%;
+  float: left;
+  margin-right: 9px;
+  padding-right: 3px;
+}
+
+/* line 364, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.third_box {
+  width: 32%;
+  float: left;
+  margin-right: 9px;
+  padding-right: 3px;
+}
+
+/* line 371, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.two_third_box {
+  width: 64%;
+  float: left;
+  margin-right: 9px;
+  padding-right: 3px;
+}
+
+/* line 378, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.quarter_box {
+  width: 24%;
+  float: left;
+  margin-right: 4px;
+  padding-right: 3px;
+}
+
+/* line 385, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.bordered {
+  border-bottom: 1px solid #ccc;
+  padding: 3px 0;
+  margin: 3px 0 8px 0;
+}
+
+/* line 391, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.bordered_right {
+  border-right: 1px solid #ccc;
+}
+
+/* line 395, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.bordered_top {
+  border-top: 1px solid #ccc;
+}
+
+/* line 399, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.bordered_left {
+  border-left: 1px solid #ccc;
+}
+
+/* line 403, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.bordered_bottom {
+  border-bottom: 1px solid #ccc;
+}
+
+/* line 407, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.big_bordered {
+  border-bottom: 3px solid #ccc;
+  padding: 3px 0;
+  margin: 3px 0 8px 0;
+}
+
+/* line 413, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.big_bordered_right {
+  border-right: 3px solid #ccc;
+}
+
+/* line 417, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.big_bordered_top {
+  border-top: 3px solid #ccc;
+}
+
+/* line 421, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.big_bordered_left {
+  border-left: 3px solid #ccc;
+}
+
+/* line 425, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.big_bordered_bottom {
+  border-bottom: 3px solid #ccc;
+}
+
+/* line 429, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.padded_right {
+  float: left;
+  padding-right: 5px;
+}
+
+/* Text */
+/* line 435, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.big {
+  font-size: 16px;
+}
+
+/* line 439, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.small {
+  font-size: 11px;
+}
+
+/* line 443, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.bold {
+  font-weight: bold;
+}
+
+/* line 447, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.error {
+  font-weight: bold;
+  background-color: #eecccc;
+  border: 1px solid #881111;
+  color: #881111;
+  padding: 4px;
+  margin-bottom: 3px;
+}
+
+/* line 456, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.notice, .success {
+  font-weight: bold;
+  color: #118811;
+  background-color: #cceecc;
+  border: 1px solid #118811;
+  padding: 4px;
+  margin-bottom: 3px;
+}
+
+/* line 465, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.hr {
+  font-size: 0px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  border-top: 1px solid #ccc;
+}
+
+/* line 472, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.break {
+  font-size: 0px;
+  float: none;
+  clear: both;
+}
+
+/* Forms */
+/* line 479, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+input {
+  border: 1px solid #006699;
+  background-color: #eee;
+  padding: 3px;
+}
+
+/* line 486, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+input:focus {
+  border: 1px solid #d02b00;
+}
+
+/* line 490, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+input.textarea {
+  width: 350px;
+}
+
+/* line 494, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+input.tf_short {
+  width: 100px;
+}
+
+/* line 498, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+textarea {
+  border: 1px solid #006699;
+  background-color: #eee;
+  padding: 3px;
+  width: 350px;
+  height: 200px;
+}
+
+/* line 506, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+textarea:focus {
+  border: 1px solid #d02b00;
+}
+
+/* line 510, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+textarea.textarea_small {
+  height: 50px;
+}
+
+/* line 514, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+select {
+  border: 1px solid #006699;
+  background-color: #eee;
+  padding: 3px;
+  width: 440px;
+}
+
+/* line 521, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+input.button {
+  background-color: #d02b00;
+  color: white;
+  font-size: 15px;
+  border: 2px solid #a00a00;
+}
+
+/* line 528, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+input.small_btn {
+  font-size: 10px;
+}
+
+/* Notes */
+/* line 533, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.note {
+  border: 1px dotted #ccc;
+  margin: 5px;
+  padding: 5px;
+}
+
+/* line 539, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.note .title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* line 544, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.metadata {
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* line 549, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.reply {
+  margin: 10px 0 0 10px;
+  border: 1px dotted #ccc;
+  padding-left: 5px;
+}
+
+/* line 555, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.reply .title {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* Tables */
+/* line 564, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 570, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+th, td {
+  margin: 0;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+/* line 576, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+th, td.total {
+  background-color: #444;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* line 583, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+th a, th a:link, th a:hover, th a:visited, th a:active {
+  color: white;
+}
+
+/* Items */
+/* line 588, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.item {
+  margin: 10px 0;
+  padding: 5px;
+  border: 2px solid #ccc;
+  background-color: #eee;
+}
+
+/* line 595, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.item:hover {
+  border: 2px solid #3366cc;
+}
+
+/* line 599, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.item .metadata a, .item .metadata a:hover, .item .metadata a:link, .item .metadata a:visited, .item .metadata a:active {
+  color: #666;
+  font-size: 0.9em;
+}
+
+/* line 604, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.item .title {
+  margin: 3px 0;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+/* line 610, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.item .logo {
+  float: left;
+  background-color: white;
+  margin: 2px 10px 2px 0;
+}
+
+/* line 616, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.chartildren {
+  margin: 3px;
+  margin-left: 10px;
+  font-size: 0.9em;
+  line-height: 13px;
+}
+
+/* line 623, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.children .title {
+  font-size: 0.9em;
+  line-height: 13px;
+}
+
+/* line 628, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.children a, .children a:link, .children a:hover, .children a:visited, .children a:active {
+  color: #339933;
+}
+
+/* line 632, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.hidden {
+  display: none;
+}
+
+/* line 636, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.green {
+  color: #339933;
+}
+
+/* line 640, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.red {
+  color: #993333;
+}
+
+/* line 644, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.number {
+  text-align: right;
+}
+
+/* Company */
+/* line 649, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.company_logo {
+  float: right;
+  background-color: white;
+  margin: 5px;
+}
+
+/* Autocomplete */
+/* line 656, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+div.autocomplete {
+  position: absolute;
+  width: 250px;
+  background-color: white;
+  border: 1px solid #888;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 665, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+div.autocomplete ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 671, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+div.autocomplete ul li.selected {
+  background-color: #ffb;
+}
+
+/* line 675, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+div.autocomplete ul li {
+  list-style-type: none;
+  display: block;
+  margin: 0;
+  padding: 2px;
+  cursor: pointer;
+}
+
+/* Packages */
+/* line 684, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.package {
+  width: 220px;
+  float: left;
+  background-color: #eee;
+  margin: 3px;
+  padding: 5px;
+  border: 2px solid #ccc;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 697, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.package:hover {
+  border: 2px solid #3366cc;
+}
+
+/* line 701, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.package .title {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 5px 0 10px 0;
+}
+
+/* line 707, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.package .price {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #00cc00;
+}
+
+/* line 713, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.package .button {
+  margin: 10px 0;
+}
+
+/* line 717, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.package .button a, .package .button a:link, .package .button a:visited, .package .button a:hover, .package .button a:active {
+  text-decoration: none;
+  background-color: #3366cc;
+  border: 2px solid #3366cc;
+  color: white;
+  padding: 5px;
+  font-size: 14px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 730, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.filters {
+  border: 2px dotted #eee;
+  padding: 3px;
+}
+
+/* IFRAME */
+/* line 736, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+#ires {
+  display: none;
+}
+
+/* Charts */
+/* line 741, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.chart {
+  width: 900px;
+  height: 400px;
+  margin: 0 auto 20px auto;
+}
+
+/* Breadcrumbs */
+/* line 748, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.breadcrumbs {
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 2px;
+  font-size: 11px;
+}
+
+/* Dropdowns */
+/* line 756, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.dropdown_menu {
+  border: 2px solid #222;
+  background-color: #333;
+  color: white;
+  position: absolute;
+  display: none;
+  text-align: left;
+  z-index: 103;
+  color: white;
+}
+
+/* line 767, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.dropdown_menu a, .dropdown_menu a:link, .dropdown_menu a:visited, .dropdown_menu a:hover, .dropdown_menu a:active,
+#usermenu .dropdown_menu a, #usermenu .dropdown_menu a:link, #usermenu .dropdown_menu a:visited, #usermenu .dropdown_menu a:hover, #usermenu .dropdown_menu a:active {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 2px;
+}
+
+/* line 775, /home/percy/app/nobal/home/workspace/app/assets/stylesheets/application.css.scss */
+.dropdown_menu a:hover, #usermenu .dropdown_menu a:hover {
+  background-color: #eee;
+  color: #333;
+}

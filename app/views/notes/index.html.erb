@@ -102,18 +102,14 @@
 		<% end %>		
 
 
-<% if current_user.permission_level=='admin' %>
+
 
 <h2>Importar Archivo Boletas "*.csv"</h2>
 <%= form_tag import_notes_path, multipart: true do %>
   <%= file_field_tag :file %>
   <%= submit_tag "Importar " %>
 <% end %>
-<%end %>
 
 
 
-<% if current_user.email=='percywoeds@gmail.com' %>
 <%= link_to "Download as CSV", notes_path(:format => "csv") %>
-
-<% end %>
